@@ -23,8 +23,8 @@ You can directly fetch and execute the install or uninstall commands from the re
 
 Run the following PowerShell command to install all the applications listed in the `install_apps.txt` file from the repository:
 
-```
-Invoke-RestMethod -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/install_apps.txt | ForEach-Object {
+```powershell
+(Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/install_apps.txt).Content | ForEach-Object {
     winget install --id $_ --silent --accept-package-agreements --accept-source-agreements
 }
 ```
@@ -35,8 +35,8 @@ This command fetches the raw content of the `install_apps.txt` file from the Git
 
 Run the following PowerShell command to remove all the applications listed in the `remove_apps.txt` file from the repository:
 
-```
-Invoke-RestMethod -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/remove_apps.txt | ForEach-Object {
+```powershell
+(Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/remove_apps.txt).Content | ForEach-Object {
     winget uninstall --id $_ --silent --accept-package-agreements --accept-source-agreements
 }
 ```
