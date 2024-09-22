@@ -34,4 +34,7 @@ Python.Python.3.12
 KhronosGroup.VulkanSDK
 Microsoft.Teams
 Microsoft.WindowsTerminal
-
+Google.AndroidStudio
+RazerInc.RazerInstaller
+9NKSQGP7F2NH
+Bitwarden.Bitwarden
