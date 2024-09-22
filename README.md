@@ -39,9 +39,9 @@ Run the following PowerShell command to remove all the applications listed in th
 
 ```powershell
  $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/remove_apps.txt).Content -split "`n" | ForEach-Object {
-     $appId = $_.Trim()
-     Write-Host "Attempting to uninstall: '$appId'"
-     winget uninstall --id $appId --silent --accept-source-agreements
+     $appName = $_.Trim()
+     Write-Host "Attempting to uninstall: '$appName'"
+     winget uninstall '$appName' --silent --accept-source-agreements
 }
 ```
 
