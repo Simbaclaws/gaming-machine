@@ -10,7 +10,6 @@ Neovim.Neovim
 BurntSushi.ripgrep.MSVC
 RevoUninstaller.RevoUninstaller
 Microsoft.Powershell
-XPDP273C0XHQH2
 Google.Chrome.EXE
 Microsoft.Edge
 Valve.Steam
@@ -36,5 +35,4 @@ Microsoft.Teams
 Microsoft.WindowsTerminal
 Google.AndroidStudio
 RazerInc.RazerInstaller
-9NKSQGP7F2NH
 Bitwarden.Bitwarden

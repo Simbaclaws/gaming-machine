@@ -86,7 +86,6 @@ If you'd like to customize the apps to be installed or removed, you can:
 **Communication apps**:
 - Discord
 - Teams
-- Whatsapp
 
 **The following apps I want to have on my gaming rig as essential**:
 - RSI Launcher
