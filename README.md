@@ -24,8 +24,8 @@ You can directly fetch and execute the install or uninstall commands from the re
 Run the following PowerShell command to install all the applications listed in the `install_apps.txt` file from the repository:
 
 ```powershell
-(Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/install_apps.txt).Content | ForEach-Object {
-    winget install --id $_ --silent --accept-package-agreements --accept-source-agreements
+ $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/install_apps.txt).Content | ForEach-Object {
+    winget install --id $_ --accept-package-agreements --accept-source-agreements
 }
 ```
 
