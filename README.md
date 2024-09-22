@@ -11,7 +11,7 @@ Before executing any script that installs or removes applications, make sure you
 
 
 ## Requirements
-
+- Microsoft.AppInstaller installed from the microsoft store on version 1.8 or higher (use winget --version to check)
 - Windows 10 or 11
 - `winget` (Windows Package Manager) installed and available in the system path
 
