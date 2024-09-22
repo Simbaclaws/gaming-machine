@@ -114,7 +114,6 @@ If you'd like to customize the apps to be installed or removed, you can:
 - Microsoft Sticky Notes
 - Outlook for Windows
 - Paint
-- Microsoft People
 - Power Automate
 
 ### Troubleshooting
