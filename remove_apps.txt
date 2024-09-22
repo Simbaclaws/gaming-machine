@@ -1,0 +1,7 @@
+Microsoft.MicrosoftSolitaireCollection
+Microsoft.MicrosoftStickyNotes
+Microsoft.BingWeather
+Microsoft.BingSearch
+Microsoft.BingNews
+Microsoft.Todos
+
