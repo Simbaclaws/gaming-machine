@@ -8,5 +8,4 @@ Microsoft Sticky Notes
 OneDrive
 Outlook for Windows
 Paint
-Microsoft People
 Power Automate
