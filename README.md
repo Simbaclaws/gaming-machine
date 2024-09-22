@@ -105,13 +105,17 @@ If you'd like to customize the apps to be installed or removed, you can:
 
 **Caution: disabling these windows built-in apps hasn't been tested yet, be very carefull when running the remove apps command!**:
 
-- Solitaire Collection
-- Sticky Notes
-- Bing Weather
-- Bing Search
-- Bing News
-- Todos
-- OneDrive
+- MSN Weather
+- News
+- Microsoft Bing Search
+- Microsoft OneDrive
+- Microsoft 365 (Office)
+- Solitaire & Casual Games
+- Microsoft Sticky Notes
+- Outlook for Windows
+- Paint
+- Microsoft People
+- Power Automate
 
 ### Troubleshooting
 
