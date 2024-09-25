@@ -13,7 +13,8 @@ nepnep.neofetch-win
 BlenderFoundation.Blender
 GitHub.GitLFS
 Neovim.Neovim
-zig.zig
+LLVM.LLVM
+LLVM.ClangFormat
 BurntSushi.ripgrep.MSVC
 RevoUninstaller.RevoUninstaller
 Valve.Steam
