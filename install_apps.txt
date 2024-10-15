@@ -40,6 +40,4 @@ KhronosGroup.VulkanSDK
 Microsoft.Teams
 Google.AndroidStudio
 RazerInc.RazerInstaller
-LGUG2Z.komorebi
-LGUG2Z.whkd
 aristocratos.btop4win
