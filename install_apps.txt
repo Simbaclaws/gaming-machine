@@ -12,3 +12,4 @@ EpicGames.EpicGamesLauncher
 KhronosGroup.VulkanSDK
 RazerInc.RazerInstaller4
 RiotGames.LeagueOfLegends.EUW
+Ookla.Speedtest.Desktop
