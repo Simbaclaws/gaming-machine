@@ -10,4 +10,4 @@ Microsoft.VCRedist.2015+.x64
 TechPowerUp.GPU-Z
 EpicGames.EpicGamesLauncher
 KhronosGroup.VulkanSDK
-RazerInc.RazerInstaller
+RazerInc.RazerInstaller4
