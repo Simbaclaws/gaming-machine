@@ -32,20 +32,6 @@ Run the following PowerShell command to install all the applications listed in t
 
 This command fetches the raw content of the `install_apps.txt` file from the GitHub repository and installs each application listed in that file.
 
-### Step 2: Remove Applications
-
-Run the following PowerShell command to remove all the applications listed in the `remove_apps.txt` file from the repository:
-
-```powershell
- $ProgressPreference = 'SilentlyContinue'; (Invoke-WebRequest -Uri https://raw.githubusercontent.com/simbaclaws/gaming-machine/main/remove_apps.txt).Content -split "`n" | ForEach-Object {
-     $appName = $_.Trim()
-     Write-Host "Attempting to uninstall: '$appName'"
-     winget uninstall "$appName" --silent --accept-source-agreements
-}
-```
-
-This command fetches the raw content of the `remove_apps.txt` file from the GitHub repository and uninstalls each application listed in that file.
-
 ### Customization
 
 If you'd like to customize the apps to be installed or removed, you can:
@@ -57,64 +43,19 @@ If you'd like to customize the apps to be installed or removed, you can:
 #### Apps to Install (`install_apps.txt`):
 (Apps I want installed on my gaming rig)
 
-**The following apps I have in case I need to do some quick development on my gaming rig, or when I need applications from code sources**:
-- NVM for Windows (NodeJS)
-- Android Studio
-- Neofetch
-- Git
-- Git LFS
-- Neovim
-- Ripgrep
-- Latest Powershell
-- Visual Studio 2022 Community
-- Figma
-- GIMP
-- Blender
-- Sysinternals
-- Oh-my-posh
-- Python
-- VulkanSDK
-- Windows Terminal (usually comes pre-installed)
-
-**The following apps are general purpose**:
-- 7zip (compression)
-- Revo Uninstaller (properly uninstall by cleaning up system)
-- Google Chrome
-- Microsoft Edge (usually comes pre-installed)
-- Microsoft Visual C++ Redistributable 2010 - 2012 - 2015 - 2022 x86 and x64 (app and game compatibility)
-- TechPowerUp.GPU-Z
-- Adguard (anti-ads)
+**The following apps will be installed**
 - Bitwarden (password manager)
-
-**Communication apps**:
+- SteelSeries GG
+- Google Chrome
 - Discord
-- Teams
-
-**The following apps I want to have on my gaming rig as essential**:
 - RSI Launcher
 - Steam
 - Ubisoft
-- Epic Games
-
-**Hardware and peripherals**:
-- Steelseries (headphones)
-- Razer Synapse (Keyboard)
-
-#### Apps to Remove (`remove_apps.txt`):
-(Default windows 11 apps that I don't require on my gaming rig...)
-
-**Caution: disabling these windows built-in apps hasn't been tested yet, be very carefull when running the remove apps command!**:
-
-- MSN Weather
-- News
-- Microsoft Bing Search
-- Microsoft OneDrive
-- Microsoft 365 (Office)
-- Solitaire & Casual Games
-- Microsoft Sticky Notes
-- Outlook for Windows
-- Paint
-- Power Automate
+- VCRedist C++ 2015-2022 (needed for games, is normally installed by specific games)
+- GPU-Z (To check specific information about your gpu)
+- Epic Games Launcher
+- Vulkan SDK
+- Razer Installer
 
 ### Troubleshooting
 
