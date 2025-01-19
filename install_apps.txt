@@ -11,3 +11,4 @@ TechPowerUp.GPU-Z
 EpicGames.EpicGamesLauncher
 KhronosGroup.VulkanSDK
 RazerInc.RazerInstaller4
+RiotGames.LeagueOfLegends.EUW
